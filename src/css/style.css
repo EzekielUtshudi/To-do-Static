@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css?family=Karla:weight@400;700&display=swap");
+
+:root {
+    --primary-color: #3e6f9e;
+    --font: "Karla", sans-serif;
+    --trans: all 0.2s ease-in-out;
+  }
+
+body {
+  font-family: var(--font);
+  color: var(--primary-color)
+}
+
+body {
+    background-color: bisque;
+}
+
+h1 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}

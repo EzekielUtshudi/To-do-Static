@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+    crossorigin="anonymous"
+  />
+  <link rel="stylesheet" href="style.css">
+    <title>Todo List</title>
+  
+  <script defer src="main.js"></script></head>
+  <body>
+    <div class="wrapper">
+        <span class="syc"><i class="fas fa-sync"></i></span>
+      <h1 class="title">Today's todo list</h1>
+      <input
+      type="text"
+      name="text"
+      id="text"
+      placeholder="Add to your list..."
+      class="italics"
+    />
+    <button type="submit" class="add-task">
+     <span class="add-icon"> + </span>
+    </button>
+      <ul class="todo"></ul>
+      <button class="btn" type="button">Clear all completed</button>
+    </div>
+  </body>
+</html>
